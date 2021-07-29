@@ -9,6 +9,7 @@ function quiz(que,ans){
   var userAns = readlineSync.question(que + "\n" + "Answer :  ");
   console.log("You entered : " + userAns );
 
+
   if(userAns === ans){
     console.log("Correct!");
     score = score  + 1;  
